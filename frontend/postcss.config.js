@@ -1,11 +1,8 @@
-// postcss.config.js
+// postcss.config.cjs
 
 module.exports = {
-  // your postcss configuration goes here
   plugins: [
-    // Example plugin setup
-    // eslint-disable-next-line no-undef
     require('autoprefixer'),
-    // other plugins...
+    // other PostCSS plugins...
   ]
 };
