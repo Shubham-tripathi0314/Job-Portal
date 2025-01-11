@@ -8,7 +8,6 @@
     "dev": "nodemon backend/index.js",
     "build": "npm install && npm install --perfix frontend && npm run build --prefix frontend",
     "start": "nodemon backend/index.js"
-
   },
   "author": "",
   "license": "ISC",
